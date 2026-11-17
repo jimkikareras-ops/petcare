@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet.Care | Biz haqimizda</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      body {
+        background: #09051b;
+      }
+      .glass {
+        background: rgba(20, 11, 45, 0.78);
+        backdrop-filter: blur(14px);
+      }
+    </style>
+  </head>
+  <body class="text-white">
+    <header
+      class="sticky top-0 z-50 border-b border-violet-900 bg-[#09051b]/90 backdrop-blur-xl"
+    >
+      <nav
+        class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4"
+      >
+        <a href="index.html" class="text-2xl font-black"
+          >🐾 Pet<span class="text-violet-400">.Care</span></a
+        >
+        <div class="hidden gap-7 text-sm font-semibold md:flex">
+          <a href="index.html" class="hover:text-violet-300">Bosh sahifa</a>
+          <a href="services.html" class="hover:text-violet-300">Xizmatlar</a>
+          <a href="about.html" class="text-violet-400">Biz haqimizda</a>
+          <a href="shop.html" class="hover:text-violet-300">Do‘kon</a>
+        </div>
+        <a
+          href="#contact"
+          class="rounded-full bg-violet-600 px-5 py-3 font-bold transition hover:bg-violet-500"
+          >Bog‘lanish</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 md:grid-cols-2"
+      >
+        <div>
+          <p class="font-bold uppercase tracking-widest text-violet-300">
+            Biz haqimizda
+          </p>
+          <h1 class="mt-4 text-4xl font-black md:text-5xl">
+            Har bir jonivorga <span class="text-violet-400">mehr bilan</span>
+          </h1>
+          <p class="mt-6 leading-8 text-slate-300">
+            Pet.Care — uy hayvonlari salomatligi va parvarishiga e’tibor
+            qaratadigan zamonaviy markaz. Maqsadimiz — sizning sevimli
+            do‘stingizga mehrli va xavfsiz xizmat ko‘rsatish.
+          </p>
+
+          <a
+            href="#contact"
+            class="mt-7 inline-block rounded-full bg-violet-600 px-7 py-3 font-bold transition hover:-translate-y-1 hover:bg-violet-500"
+          >
+            Biz bilan bog‘lanish
+          </a>
+        </div>
+
+        <div
+          class="rounded-[2rem] border border-violet-800 bg-gradient-to-br from-violet-950 to-[#100821] p-10 text-center"
+        >
+          <div class="text-8xl">
+            <img src="./images/image copy 10.png" alt="" />
+          </div>
+          <h2 class="mt-5 text-2xl font-bold">
+            Ular shunchaki uy hayvoni emas
+          </h2>
+          <p class="mt-3 text-slate-400">Ular — oilamizning bir bo‘lagi.</p>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-7xl px-5 py-8">
+        <div class="grid gap-5 sm:grid-cols-3">
+          <div
+            class="glass rounded-2xl border border-violet-900 p-6 text-center transition hover:-translate-y-2"
+          >
+            <b class="text-4xl text-violet-300">5+</b>
+            <p class="mt-2 text-slate-400">Yillik tajriba</p>
+          </div>
+
+          <div
+            class="glass rounded-2xl border border-violet-900 p-6 text-center transition hover:-translate-y-2"
+          >
+            <b class="text-4xl text-violet-300">10K+</b>
+            <p class="mt-2 text-slate-400">Baxtli mijozlar</p>
+          </div>
+
+          <div
+            class="glass rounded-2xl border border-violet-900 p-6 text-center transition hover:-translate-y-2"
+          >
+            <b class="text-4xl text-violet-300">98%</b>
+            <p class="mt-2 text-slate-400">Mamnunlik</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="mx-auto max-w-7xl px-5 py-14">
+        <div
+          class="grid gap-10 rounded-3xl border border-violet-900 bg-[#120a28] p-8 md:grid-cols-2 md:p-10"
+        >
+          <div>
+            <p class="font-bold uppercase tracking-widest text-violet-300">
+              Aloqa
+            </p>
+            <h2 class="mt-3 text-3xl font-black">Biz bilan bog‘laning</h2>
+            <p class="mt-3 text-slate-400">
+              Savolingiz bormi? Xabar qoldiring, siz bilan bog‘lanamiz.
+            </p>
+
+            <ul class="mt-8 space-y-4 text-slate-300">
+              <li>📍 Toshkent, O‘zbekiston</li>
+              <li>☎ +998 90 123 45 67</li>
+              <li>✉ info@pet.care</li>
+            </ul>
+          </div>
+
+          <form
+            class="grid gap-4"
+            onsubmit="
+              event.preventDefault();
+              alert('Xabaringiz uchun rahmat!');
+            "
+          >
+            <input
+              required
+              placeholder="Ismingiz"
+              class="rounded-xl border border-violet-900 bg-[#09051b] px-4 py-3 outline-none transition focus:border-violet-400"
+            />
+
+            <input
+              required
+              type="email"
+              placeholder="Email manzilingiz"
+              class="rounded-xl border border-violet-900 bg-[#09051b] px-4 py-3 outline-none transition focus:border-violet-400"
+            />
+
+            <input
+              placeholder="Telefon raqamingiz"
+              class="rounded-xl border border-violet-900 bg-[#09051b] px-4 py-3 outline-none transition focus:border-violet-400"
+            />
+
+            <textarea
+              required
+              placeholder="Xabaringiz"
+              class="min-h-32 rounded-xl border border-violet-900 bg-[#09051b] px-4 py-3 outline-none transition focus:border-violet-400"
+            ></textarea>
+
+            <button
+              class="rounded-xl bg-violet-600 px-6 py-3 font-bold transition hover:-translate-y-1 hover:bg-violet-500"
+            >
+              Xabar yuborish →
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-16 border-t border-violet-900 bg-[#070414]">
+      <div
+        class="mx-auto grid max-w-7xl gap-10 px-5 py-12 sm:grid-cols-2 lg:grid-cols-4"
+      >
+        <div>
+          <h2 class="text-2xl font-black">
+            🐾 Pet<span class="text-violet-400">.Care</span>
+          </h2>
+          <p class="mt-4 text-sm leading-6 text-slate-400">
+            Sevimli uy hayvonlaringiz uchun g‘amxo‘rlik, sifatli xizmat va mehr.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="font-bold">Tezkor havolalar</h3>
+          <ul class="mt-4 space-y-3 text-sm text-slate-400">
+            <li>
+              <a href="index.html" class="hover:text-violet-300">Bosh sahifa</a>
+            </li>
+            <li>
+              <a href="services.html" class="hover:text-violet-300"
+                >Xizmatlar</a
+              >
+            </li>
+            <li>
+              <a href="about.html" class="hover:text-violet-300"
+                >Biz haqimizda</a
+              >
+            </li>
+            <li>
+              <a href="shop.html" class="hover:text-violet-300">Do‘kon</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold">Xizmatlarimiz</h3>
+          <ul class="mt-4 space-y-3 text-sm text-slate-400">
+            <li>Veterinar ko‘rigi</li>
+            <li>Yuvish va parvarish</li>
+            <li>Pet mehmonxona</li>
+            <li>Parvarish maslahatlari</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold">Aloqa</h3>
+          <ul class="mt-4 space-y-3 text-sm text-slate-400">
+            <li>📍 Toshkent, O‘zbekiston</li>
+            <li>☎ +998 90 123 45 67</li>
+            <li>✉ info@pet.care</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="border-t border-violet-950 py-5 text-center text-xs text-slate-500"
+      >
+        © 2026 Pet.Care. Barcha huquqlar himoyalangan.
+      </div>
+    </footer>
+  </body>
+</html>

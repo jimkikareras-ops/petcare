@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet.Care</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background: #09051b;
+      }
+      .glass {
+        background: rgba(20, 11, 45, 0.78);
+        backdrop-filter: blur(14px);
+      }
+      .glow:hover {
+        box-shadow: 0 0 28px rgba(139, 44, 255, 0.35);
+      }
+    </style>
+  </head>
+
+  <body class="min-h-screen bg-[#09051b] text-white">
+    <header
+      class="sticky top-0 z-50 border-b border-violet-900/50 bg-[#09051b]/90 backdrop-blur-xl"
+    >
+      <nav
+        class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4"
+      >
+        <a
+          href="index.html"
+          class="text-2xl font-black transition hover:scale-105"
+        >
+          <span class="text-violet-400">🐾</span>
+          Pet<span class="text-violet-400">.Care</span>
+        </a>
+
+        <div class="hidden items-center gap-7 text-sm font-semibold md:flex">
+          <a class="transition hover:text-violet-300" href="index.html"
+            >Bosh sahifa</a
+          >
+          <a class="transition hover:text-violet-300" href="services.html"
+            >Xizmatlar</a
+          >
+          <a class="transition hover:text-violet-300" href="about.html"
+            >Biz haqimizda</a
+          >
+          <a class="transition hover:text-violet-300" href="shop.html"
+            >Do‘kon</a
+          >
+        </div>
+
+        <a
+          href="about.html#contact"
+          class="rounded-full bg-violet-600 px-5 py-2.5 text-sm font-bold shadow-lg shadow-violet-700/30 transition hover:-translate-y-1 hover:bg-violet-500 glow"
+        >
+          Bog‘lanish
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="relative overflow-hidden">
+        <div
+          class="mx-auto grid max-w-7xl items-center gap-10 px-5 py-14 md:grid-cols-2 md:py-20"
+        >
+          <div class="relative z-10">
+            <span
+              class="rounded-full border border-violet-500/40 bg-violet-950/70 px-4 py-2 text-sm text-violet-200"
+            >
+              ✨ Uy hayvonlari uchun mehrli maskan
+            </span>
+
+            <h1 class="mt-7 text-5xl font-black leading-tight md:text-7xl">
+              Pet<span class="text-violet-400">.Care</span><br />
+              Ularning baxti —<br />
+              <span class="text-violet-300">bizning vazifamiz!</span>
+            </h1>
+
+            <p class="mt-6 max-w-lg text-lg leading-8 text-slate-300">
+              Sevimli do‘stlaringiz uchun professional parvarish, sog‘liq va
+              mehr. Har bir jonivor eng yaxshi g‘amxo‘rlikka loyiq.
+            </p>
+
+            <div class="mt-8 flex flex-wrap gap-4">
+              <a
+                href="services.html"
+                class="glow rounded-full bg-violet-600 px-7 py-3.5 font-bold transition hover:-translate-y-1 hover:bg-violet-500"
+              >
+                Xizmatlarni ko‘rish →
+              </a>
+
+              <a
+                href="about.html"
+                class="rounded-full border border-violet-400 px-7 py-3.5 font-bold transition hover:bg-violet-500/15"
+              >
+                Biz haqimizda
+              </a>
+            </div>
+
+            <div class="mt-10 flex gap-8 text-sm">
+              <div>
+                <b class="block text-2xl text-violet-300">10K+</b>
+                <span class="text-slate-400">Baxtli mijozlar</span>
+              </div>
+
+              <div>
+                <b class="block text-2xl text-violet-300">98%</b>
+                <span class="text-slate-400">Mamnunlik</span>
+              </div>
+
+              <div>
+                <b class="block text-2xl text-violet-300">5.0</b>
+                <span class="text-slate-400">Yuqori baho</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative">
+            <div
+              class="absolute inset-8 rounded-full bg-violet-600/30 blur-3xl"
+            ></div>
+
+            <img
+              src="./images/image.png"
+              alt="Pet.Care it va mushuk"
+              class="relative w-full rounded-[2rem] border border-violet-500/40 shadow-2xl shadow-violet-900/50 transition duration-500 hover:scale-[1.02]"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-7xl px-5 py-12">
+        <div class="text-center">
+          <p class="font-bold uppercase tracking-[.25em] text-violet-300">
+            Nima taklif qilamiz?
+          </p>
+
+          <h2 class="mt-3 text-3xl font-black md:text-4xl">
+            Sizga kerakli barcha
+            <span class="text-violet-400">xizmatlar</span>
+          </h2>
+
+          <p class="mt-3 text-slate-400">
+            Uy hayvoningiz uchun bir joyda qulay va ishonchli xizmatlar.
+          </p>
+        </div>
+
+        <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <a
+            href="services.html"
+            class="glass glow rounded-2xl border border-violet-900 p-6 transition duration-300 hover:-translate-y-2"
+          >
+            <div class="text-4xl">
+              <img src="./images/image copy 5.png" alt="" />
+            </div>
+            <h3 class="mt-4 font-bold">Veterinar xizmati</h3>
+            <p class="mt-2 text-sm text-slate-400">
+              Sog‘liq va muntazam tekshiruv.
+            </p>
+          </a>
+
+          <a
+            href="services.html"
+            class="glass glow rounded-2xl border border-violet-900 p-6 transition duration-300 hover:-translate-y-2"
+          >
+            <div class="text-4xl">
+              <img src="./images/image copy 4.png" alt="" />
+            </div>
+            <h3 class="mt-4 font-bold">Parvarish</h3>
+            <p class="mt-2 text-sm text-slate-400">
+              Tozalash va jun parvarishi.
+            </p>
+          </a>
+
+          <a
+            href="shop.html"
+            class="glass glow rounded-2xl border border-violet-900 p-6 transition duration-300 hover:-translate-y-2"
+          >
+            <div class="text-4xl">
+              <img src="./images/image copy 2.png" alt="" />
+            </div>
+            <h3 class="mt-4 font-bold">Pet do‘kon</h3>
+            <p class="mt-2 text-sm text-slate-400">
+              Ozuqa va foydali mahsulotlar.
+            </p>
+          </a>
+
+          <a
+            href="services.html"
+            class="glass glow rounded-2xl border border-violet-900 p-6 transition duration-300 hover:-translate-y-2"
+          >
+            <div class="text-4xl">
+              <img src="./images/image copy 3.png" alt="" />
+            </div>
+            <h3 class="mt-4 font-bold">Mehmonxona</h3>
+            <p class="mt-2 text-sm text-slate-400">
+              Ishonchli vaqtinchalik parvarish.
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <section
+        class="mx-auto grid max-w-7xl items-center gap-10 px-5 py-14 md:grid-cols-2"
+      >
+        <div
+          class="rounded-3xl border border-violet-900 bg-gradient-to-br from-violet-950 to-[#100821] p-10"
+        >
+          <div class="text-8xl">
+            <img src="./images/image copy.png" alt="" />
+          </div>
+          <p class="mt-5 text-violet-300">Mehr bilan parvarish</p>
+          <h2 class="mt-2 text-3xl font-black">Ular oilamizning bir bo‘lagi</h2>
+        </div>
+
+        <div>
+          <p class="font-bold uppercase tracking-[.2em] text-violet-300">
+            Nega Pet.Care?
+          </p>
+
+          <h2 class="mt-3 text-3xl font-black">
+            Ishonchli parvarish —
+            <span class="text-violet-400">xotirjam hayot</span>
+          </h2>
+
+          <ul class="mt-6 space-y-4 text-slate-300">
+            <li>✓ E’tiborli va mehribon jamoa</li>
+            <li>✓ Toza va qulay muhit</li>
+            <li>✓ Har bir jonivorga individual yondashuv</li>
+          </ul>
+
+          <a
+            href="about.html"
+            class="mt-7 inline-block font-bold text-violet-300 transition hover:text-white"
+          >
+            Biz haqimizda ko‘proq →
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <section class="mx-auto mt-20 max-w-7xl px-5">
+      <div
+        class="rounded-3xl border border-violet-800/70 bg-gradient-to-r from-violet-950 via-[#180b36] to-[#100821] p-8 text-center md:p-12"
+      >
+        <p class="text-sm font-bold uppercase tracking-[.25em] text-violet-300">
+          Biz bilan bog‘laning
+        </p>
+
+        <h2 class="mt-3 text-3xl font-black md:text-4xl">
+          Uy hayvoningizga mehr ulashing!
+        </h2>
+
+        <p class="mx-auto mt-3 max-w-xl text-slate-300">
+          Savollaringiz bormi? Biz sizga yordam berishga tayyormiz.
+        </p>
+
+        <a
+          href="about.html#contact"
+          class="mt-6 inline-block rounded-full bg-violet-600 px-7 py-3 font-bold transition hover:-translate-y-1 hover:bg-violet-500"
+        >
+          Aloqa uchun →
+        </a>
+      </div>
+    </section>
+
+    <footer class="mt-16 border-t border-violet-900/60 bg-[#070414]">
+      <div
+        class="mx-auto grid max-w-7xl gap-10 px-5 py-12 sm:grid-cols-2 lg:grid-cols-4"
+      >
+        <div>
+          <a href="index.html" class="text-2xl font-black">
+            🐾 Pet<span class="text-violet-400">.Care</span>
+          </a>
+
+          <p class="mt-4 max-w-xs text-sm leading-6 text-slate-400">
+            Sevimli uy hayvonlaringiz uchun g‘amxo‘rlik, sifatli xizmat va mehr.
+          </p>
+
+          <div class="mt-5 flex gap-3">
+            <a
+              href="#"
+              class="grid h-9 w-9 place-items-center rounded-full bg-violet-950 transition hover:bg-violet-600"
+              >◎</a
+            >
+            <a
+              href="#"
+              class="grid h-9 w-9 place-items-center rounded-full bg-violet-950 transition hover:bg-violet-600"
+              >➤</a
+            >
+            <a
+              href="#"
+              class="grid h-9 w-9 place-items-center rounded-full bg-violet-950 transition hover:bg-violet-600"
+              >f</a
+            >
+          </div>
+        </div>
+
+        <div>
+          <h3 class="font-bold">Tezkor havolalar</h3>
+          <ul class="mt-4 space-y-3 text-sm text-slate-400">
+            <li>
+              <a class="hover:text-violet-300" href="index.html">Bosh sahifa</a>
+            </li>
+            <li>
+              <a class="hover:text-violet-300" href="services.html"
+                >Xizmatlar</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-violet-300" href="about.html"
+                >Biz haqimizda</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-violet-300" href="shop.html">Do‘kon</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold">Xizmatlarimiz</h3>
+          <ul class="mt-4 space-y-3 text-sm text-slate-400">
+            <li>Veterinar ko‘rigi</li>
+            <li>Yuvish va parvarish</li>
+            <li>Uy hayvonlari mehmonxonasi</li>
+            <li>Parvarish maslahatlari</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold">Aloqa ma’lumotlari</h3>
+          <ul class="mt-4 space-y-3 text-sm text-slate-400">
+            <li>📍 Toshkent, O‘zbekiston</li>
+            <li>☎ +998 90 123 45 67</li>
+            <li>✉ info@pet.care</li>
+            <li>🕘 Du–Sha: 09:00–18:00</li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="border-t border-violet-950 py-5 text-center text-xs text-slate-500"
+      >
+        © 2026 Pet.Care. Barcha huquqlar himoyalangan.
+      </div>
+    </footer>
+  </body>
+</html>

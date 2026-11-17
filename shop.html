@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet.Care | Do‘kon</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      body {
+        background: #09051b;
+      }
+      .glass {
+        background: rgba(20, 11, 45, 0.78);
+        backdrop-filter: blur(14px);
+      }
+      .glow:hover {
+        box-shadow: 0 0 28px rgba(139, 44, 255, 0.35);
+      }
+    </style>
+  </head>
+  <body class="text-white">
+    <header
+      class="sticky top-0 z-50 border-b border-violet-900 bg-[#09051b]/90 backdrop-blur-xl"
+    >
+      <nav
+        class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4"
+      >
+        <a href="index.html" class="text-2xl font-black"
+          >🐾 Pet<span class="text-violet-400">.Care</span></a
+        >
+        <div class="hidden gap-7 text-sm font-semibold md:flex">
+          <a href="index.html" class="hover:text-violet-300">Bosh sahifa</a>
+          <a href="services.html" class="hover:text-violet-300">Xizmatlar</a>
+          <a href="about.html" class="hover:text-violet-300">Biz haqimizda</a>
+          <a href="shop.html" class="text-violet-400">Do‘kon</a>
+        </div>
+        <a
+          href="about.html#contact"
+          class="rounded-full bg-violet-600 px-5 py-3 font-bold transition hover:bg-violet-500"
+          >Bog‘lanish</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <!-- SHOP HERO -->
+      <section class="mx-auto max-w-7xl px-5 py-16">
+        <p class="font-bold uppercase tracking-widest text-violet-300">
+          Pet do‘kon
+        </p>
+
+        <h1 class="mt-3 text-4xl font-black md:text-5xl">
+          Sevimli do‘stingiz uchun
+          <span class="text-violet-400">foydali mahsulotlar</span>
+        </h1>
+
+        <p class="mt-4 text-slate-400">
+          Kundalik parvarish va quvonch uchun kerakli mahsulotlar.
+        </p>
+
+        <!-- PRODUCTS -->
+        <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- PRODUCT 1 -->
+          <article
+            class="glass glow rounded-3xl border border-violet-900 p-5 transition duration-300 hover:-translate-y-2"
+          >
+            <div
+              class="grid h-44 place-items-center rounded-2xl bg-violet-950 text-7xl transition hover:scale-105"
+            >
+              <img src="./images/image copy 7.png" alt="" />
+            </div>
+
+            <h2 class="mt-5 font-bold">Sifatli yem</h2>
+
+            <p class="mt-2 text-sm text-slate-400">
+              Mushuk va itlar uchun ozuqa.
+            </p>
+
+            <p class="mt-4 font-black text-violet-300">Narx: kelishiladi</p>
+
+            <button
+              onclick="alert('Mahsulot savatga qo‘shildi!')"
+              class="mt-4 w-full rounded-xl bg-violet-600 py-3 font-bold transition hover:bg-violet-500 hover:scale-105"
+            >
+              Savatga qo‘shish
+            </button>
+          </article>
+
+          <!-- PRODUCT 2 -->
+          <article
+            class="glass glow rounded-3xl border border-violet-900 p-5 transition duration-300 hover:-translate-y-2"
+          >
+            <div
+              class="grid h-44 place-items-center rounded-2xl bg-violet-950 text-7xl transition hover:scale-105"
+            >
+              <img
+                class="w-[300px] h-[180px]"
+                src="./images/image copy 6.png"
+                alt=""
+              />
+            </div>
+
+            <h2 class="mt-5 font-bold">O‘yinchoqlar</h2>
+
+            <p class="mt-2 text-sm text-slate-400">Faol o‘yinlar uchun.</p>
+
+            <p class="mt-4 font-black text-violet-300">Narx: kelishiladi</p>
+
+            <button
+              onclick="alert('Mahsulot savatga qo‘shildi!')"
+              class="mt-4 w-full rounded-xl bg-violet-600 py-3 font-bold transition hover:bg-violet-500 hover:scale-105"
+            >
+              Savatga qo‘shish
+            </button>
+          </article>
+
+          <!-- PRODUCT 3 -->
+          <article
+            class="glass glow rounded-3xl border border-violet-900 p-5 transition duration-300 hover:-translate-y-2"
+          >
+            <div
+              class="grid h-44 place-items-center rounded-2xl bg-violet-950 text-7xl transition hover:scale-105"
+            >
+              <img src="./images/image copy 9.png" alt="" />
+            </div>
+
+            <h2 class="mt-5 font-bold">Mazali yegulik</h2>
+
+            <p class="mt-2 text-sm text-slate-400">Mukofot va tamaddilar.</p>
+
+            <p class="mt-4 font-black text-violet-300">Narx: kelishiladi</p>
+
+            <button
+              onclick="alert('Mahsulot savatga qo‘shildi!')"
+              class="mt-4 w-full rounded-xl bg-violet-600 py-3 font-bold transition hover:bg-violet-500 hover:scale-105"
+            >
+              Savatga qo‘shish
+            </button>
+          </article>
+
+          <!-- PRODUCT 4 -->
+          <article
+            class="glass glow rounded-3xl border border-violet-900 p-5 transition duration-300 hover:-translate-y-2"
+          >
+            <div
+              class="grid h-44 place-items-center rounded-2xl bg-violet-950 text-7xl transition hover:scale-105"
+            >
+              <img
+                class="w-[300px] h-[180px]"
+                src="./images/image copy 8.png"
+                alt=""
+              />
+            </div>
+
+            <h2 class="mt-5 font-bold">Parvarish vositalari</h2>
+
+            <p class="mt-2 text-sm text-slate-400">
+              Tozalik va kundalik parvarish.
+            </p>
+
+            <p class="mt-4 font-black text-violet-300">Narx: kelishiladi</p>
+
+            <button
+              onclick="alert('Mahsulot savatga qo‘shildi!')"
+              class="mt-4 w-full rounded-xl bg-violet-600 py-3 font-bold transition hover:bg-violet-500 hover:scale-105"
+            >
+              Savatga qo‘shish
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="mx-auto max-w-7xl px-5">
+        <div
+          class="rounded-3xl border border-violet-900 bg-[#120a28] p-8 md:flex md:items-center md:justify-between"
+        >
+          <div>
+            <h2 class="text-2xl font-black">
+              Mahsulot tanlashda yordam kerakmi?
+            </h2>
+            <p class="mt-2 text-slate-400">
+              Biz bilan bog‘laning — maslahat beramiz.
+            </p>
+          </div>
+
+          <a
+            href="about.html#contact"
+            class="mt-5 inline-block rounded-full bg-violet-600 px-6 py-3 font-bold transition hover:-translate-y-1 hover:bg-violet-500 md:mt-0"
+          >
+            Maslahat olish →
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="mt-16 border-t border-violet-900 bg-[#070414]">
+      <div
+        class="mx-auto grid max-w-7xl gap-10 px-5 py-12 sm:grid-cols-2 lg:grid-cols-4"
+      >
+        <div>
+          <h2 class="text-2xl font-black">
+            🐾 Pet<span class="text-violet-400">.Care</span>
+          </h2>
+          <p class="mt-4 text-sm leading-6 text-slate-400">
+            Sevimli uy hayvonlaringiz uchun g‘amxo‘rlik, sifatli xizmat va mehr.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="font-bold">Tezkor havolalar</h3>
+          <ul class="mt-4 space-y-3 text-sm text-slate-400">
+            <li>
+              <a href="index.html" class="hover:text-violet-300">Bosh sahifa</a>
+            </li>
+            <li>
+              <a href="services.html" class="hover:text-violet-300"
+                >Xizmatlar</a
+              >
+            </li>
+            <li>
+              <a href="about.html" class="hover:text-violet-300"
+                >Biz haqimizda</a
+              >
+            </li>
+            <li>
+              <a href="shop.html" class="hover:text-violet-300">Do‘kon</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold">Xizmatlarimiz</h3>
+          <ul class="mt-4 space-y-3 text-sm text-slate-400">
+            <li>Veterinar ko‘rigi</li>
+            <li>Yuvish va parvarish</li>
+            <li>Pet mehmonxona</li>
+            <li>Parvarish maslahatlari</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold">Aloqa</h3>
+          <ul class="mt-4 space-y-3 text-sm text-slate-400">
+            <li>📍 Toshkent, O‘zbekiston</li>
+            <li>☎ +998 90 123 45 67</li>
+            <li>✉ info@pet.care</li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="border-t border-violet-950 py-5 text-center text-xs text-slate-500"
+      >
+        © 2026 Pet.Care. Barcha huquqlar himoyalangan.
+      </div>
+    </footer>
+  </body>
+</html>
